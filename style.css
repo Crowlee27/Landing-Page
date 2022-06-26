@@ -3,6 +3,11 @@
     /*border: 2px solid red;*/
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-around;
@@ -23,4 +28,55 @@ ul{
     font-size: 18px;
     display: flex;
     gap: 1rem;
+}
+
+.first-bar{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.left-top-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-top-bar{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero{
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.hero-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+}
+
+.placeholder{
+    color: #e5e7eb;
+}
+
+.image{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
