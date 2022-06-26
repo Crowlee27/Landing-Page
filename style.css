@@ -123,3 +123,25 @@ second-bar{
     border: 4px solid #3882f6;
     border-radius: 20px;
 }
+
+.quote-bar{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-person{
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
